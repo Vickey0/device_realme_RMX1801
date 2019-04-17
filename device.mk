@@ -146,7 +146,8 @@ PRODUCT_PACKAGES += \
 
 # Configstore
 RODUCT_PACKAGES += \
-    android.hardware.configstore@1.1-service
+    android.hardware.configstore@1.1-service \
+    android.hardware.broadcastradio@1.0-impl
 
 # Display
 PRODUCT_PACKAGES += \
