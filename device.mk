@@ -135,6 +135,11 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     CameraGo
 
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Camera Shim
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
