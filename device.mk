@@ -243,6 +243,7 @@ PRODUCT_PACKAGES += \
     init.qti.qseecomd.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.performance.sdm660.rc \
     ueventd.qcom.rc
 
 # IRSC
