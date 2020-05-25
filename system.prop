@@ -13,3 +13,7 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # RIL
 DEVICE_PROVISIONED=1
 gsm.lte.ca.support=0
+
+# SSR
+persist.vendor.ssr.enable_ramdumps=0
+persist.vendor.ssr.restart_level=ALL_ENABLE
