@@ -52,6 +52,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.preview.ubwc=0 \
+    persist.radio.VT_CAM_INTERFACE=2 \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
     vendor.camera.hal1.packagelist=com.whatsapp,com.instagram.android,com.snapchat.android,net.one97.paytm \
     vidc.enc.dcvs.extra-buff-count=2
