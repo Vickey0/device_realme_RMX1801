@@ -178,3 +178,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Time-service
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
