@@ -46,7 +46,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1801" \
     PRIVATE_BUILD_DESC="sdm660_64-user 9 PKQ1.181121.001 eng.root.20200328.174802 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
 # Security patch level
 PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-03-05
