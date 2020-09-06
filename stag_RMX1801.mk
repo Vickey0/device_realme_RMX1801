@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
@@ -27,12 +27,12 @@ $(call inherit-product, device/realme/RMX1801/device.mk)
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-PRODUCT_NAME := potato_RMX1801
+PRODUCT_NAME := stag_RMX1801
 PRODUCT_DEVICE := RMX1801
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := oppo
 PRODUCT_MODEL := Realme 2 Pro
-PRODUCT_ARCH := arm64
+# PRODUCT_ARCH := arm64
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
