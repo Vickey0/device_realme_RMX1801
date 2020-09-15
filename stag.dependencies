@@ -7,6 +7,7 @@
   {
     "repository": "vendor_realme",
     "target_path": "vendor/realme",
+    "remote": "gitlab-stag",
     "branch": "10"
   }
 ]
