@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "baibhab34/RMX1801",
+    "target_path": "kernel/realme/sdm660",
+    "remote": "github",
+    "branch": "eas3"
+  },
+  {
+    "repository": "baibhab34/vendor_realme-1",
+    "target_path": "vendor/realme",
+    "remote": "github",
+    "branch": "r11"
+  }
+]
