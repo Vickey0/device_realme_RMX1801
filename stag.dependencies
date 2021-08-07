@@ -10,5 +10,11 @@
     "target_path": "vendor/realme",
     "remote": "github",
     "branch": "r11"
+  },
+  {
+    "repository": "techyminati/android_packages_apps_RealmeDirac",
+    "target_path": "packages/apps/RealmeDirac",
+    "remote": "github",
+    "branch": "master"
   }
 ]
