@@ -22,6 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/blaze/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_CHARGER := true
+BLAZE_MAINTAINER := Luffy
+BLAZE_BUILD_TYPE := UNOFFICIAL
+
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
 
