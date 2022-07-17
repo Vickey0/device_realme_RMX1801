@@ -26,6 +26,9 @@ TARGET_USE_PIXEL_CHARGER := true
 BLAZE_MAINTAINER := Luffy
 BLAZE_BUILD_TYPE := UNOFFICIAL
 
+#Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
 
