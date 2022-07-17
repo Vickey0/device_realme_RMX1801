@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_RMX1801.mk
+    $(LOCAL_DIR)/blaze_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_RMX1801-user \
-    stag_RMX1801-userdebug \
-    stag_RMX1801-eng
+    blaze_RMX1801-user \
+    blaze_RMX1801-userdebug \
+    blaze_RMX1801-eng
