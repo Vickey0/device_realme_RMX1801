@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_RMX1801.mk
+    $(LOCAL_DIR)/syberia_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_RMX1801-user \
-    blaze_RMX1801-userdebug \
-    blaze_RMX1801-eng
+    syberia_RMX1801-user \
+    syberia_RMX1801-userdebug \
+    syberia_RMX1801-eng
