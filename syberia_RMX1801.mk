@@ -23,8 +23,8 @@ $(call inherit-product, vendor/syberia/common.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
-BLAZE_MAINTAINER := Luffy
-BLAZE_BUILD_TYPE := UNOFFICIAL
+#BLAZE_MAINTAINER := Luffy
+#BLAZE_BUILD_TYPE := UNOFFICIAL
 
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -35,7 +35,7 @@ $(call inherit-product, device/realme/RMX1801/device.mk)
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-PRODUCT_NAME := blaze_RMX1801
+PRODUCT_NAME := syberia_RMX1801
 PRODUCT_DEVICE := RMX1801
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := oppo
