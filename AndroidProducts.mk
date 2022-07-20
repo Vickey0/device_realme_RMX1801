@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_RMX1801.mk
+    $(LOCAL_DIR)/corvus_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_RMX1801-user \
-    syberia_RMX1801-userdebug \
-    syberia_RMX1801-eng
+    corvus_RMX1801-user \
+    corvus_RMX1801-userdebug \
+    corvus_RMX1801-eng
