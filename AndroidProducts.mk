@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_RMX1801.mk
+    $(LOCAL_DIR)/cherish_RMX1801.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_RMX1801-user \
-    corvus_RMX1801-userdebug \
-    corvus_RMX1801-eng
+    cherish_RMX1801-user \
+    cherish_RMX1801-userdebug \
+    cherish_RMX1801-eng
