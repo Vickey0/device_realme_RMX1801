@@ -18,23 +18,27 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common cherish stuff
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common blaze stuff
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
-#WITH_GMS := true
-TARGET_USES_BLUR := true
+WITH_GMS := true
+#TARGET_USES_BLUR := true
 #Boot Animation
-#TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP  := true
+TARGET_BOOT_ANIMATION_RES := 1080
+#TARGET_SUPPORTS_QUICK_TAP  := true
+BLAZE_MAINTAINER := Abhi
+BLAZE_BUILD_TYPE := UNOFFICIAL
+
+
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
 
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-PRODUCT_NAME := cherish_RMX1801
+PRODUCT_NAME := blaze_RMX1801
 PRODUCT_DEVICE := RMX1801
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := oppo
