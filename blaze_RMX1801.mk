@@ -23,7 +23,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
-WITH_GMS := true
+WITH_GAPPS := true
 #TARGET_USES_BLUR := true
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
