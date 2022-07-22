@@ -24,6 +24,7 @@ $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 #TARGET_USES_BLUR := true
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
